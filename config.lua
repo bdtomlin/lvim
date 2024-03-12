@@ -72,10 +72,3 @@ vim.cmd([[
 	command! -nargs=? -complete=dir Reveal silent edit %:h
 ]])
 -- end NvimTree Config
-
--- lvim.lsp.buffer_mappings.normal_mode.gd = {
--- 	"<cmd>lua vim.lsp.buf.definition()<cr>",
--- 	"Goto definition",
--- }
--- lvim.lsp.buffer_mappings.normal_mode.gd["1"] = "<cmd>lua vim.lsp.buf.definition()<cr>"
--- lvim.lsp.buffer_mappings.normal_mode.gd["2"] = "Goto definition"

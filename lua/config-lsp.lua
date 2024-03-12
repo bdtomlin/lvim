@@ -9,11 +9,6 @@ local lsp_options = {
 	single_file_support = true,
 }
 
-lspconfig.elixirls.setup(vim.tbl_extend("force", lsp_options, {
-	cmd = { "elixir-ls" },
-	-- settings = { elixirLS = { dialyzerEnabled = false } },
-}))
-
 lspconfig.emmet_ls.setup(vim.tbl_extend("force", lsp_options, {
 	capabilities = capabilities,
 	filetypes = { "html", "css", "elixir", "eelixir", "heex" },

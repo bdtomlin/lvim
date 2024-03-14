@@ -31,6 +31,8 @@ lvim.colorscheme = "melange"
 vim.opt.scrolloff = 0
 vim.opt.ignorecase = false
 
+lvim.builtin.telescope.defaults.file_ignore_patterns = { ".git" }
+
 -- Status Line Config
 --
 -- This is the template:
@@ -65,7 +67,7 @@ lvim.builtin.nvimtree.setup.view.float.open_win_config.height = 45
 lvim.builtin.nvimtree.setup.view.float.open_win_config.relative = "win"
 lvim.builtin.nvimtree.setup.actions.open_file.window_picker.enable = false
 
--- the following 2 settings are needed to prevent errors when 
+-- the following 2 settings are needed to prevent errors when
 -- using lvim . and then running telescope.
 lvim.builtin.nvimtree.setup.view.float.quit_on_focus_loss = false
 lvim.builtin.nvimtree.setup.actions.open_file.quit_on_open = true

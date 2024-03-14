@@ -31,6 +31,7 @@ lvim.colorscheme = "melange"
 vim.opt.scrolloff = 0
 vim.opt.ignorecase = false
 
+lvim.builtin.bufferline.active = false
 lvim.builtin.telescope.defaults.file_ignore_patterns = { ".git" }
 lvim.builtin.nvimtree.setup.renderer.icons.glyphs.git.untracked = ""
 lvim.builtin.nvimtree.setup.renderer.icons.glyphs.git.staged = ""
@@ -59,7 +60,7 @@ lvim.builtin.lualine.sections.lualine_c = {
 
 -- NvimTree Config
 vim.opt.termguicolors = true
-lvim.builtin.nvimtree.setup.hijack_unnamed_buffer_when_opening = true
+-- lvim.builtin.nvimtree.setup.hijack_unnamed_buffer_when_opening = true
 lvim.builtin.nvimtree.setup.disable_netrw = true
 lvim.builtin.nvimtree.setup.hijack_netrw = true
 lvim.builtin.nvimtree.setup.hijack_directories.enable = true

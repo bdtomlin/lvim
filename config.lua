@@ -32,6 +32,8 @@ vim.opt.scrolloff = 0
 vim.opt.ignorecase = false
 
 lvim.builtin.telescope.defaults.file_ignore_patterns = { ".git" }
+lvim.builtin.nvimtree.setup.renderer.icons.glyphs.git.untracked = ""
+lvim.builtin.nvimtree.setup.renderer.icons.glyphs.git.staged = ""
 
 -- Status Line Config
 --

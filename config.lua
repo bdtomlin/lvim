@@ -21,6 +21,10 @@ lvim.plugins = {
 		config = true,
 	},
 }
+vim.opt.fillchars:append({ diff = " " })
+-- vim.opt.diffopt:append("internal,algorithm:patience")
+vim.opt.diffopt = vim.opt.diffopt + "internal,algorithm:patience"
+-- set diffopt+=internal,algorithm:patience
 
 require("config-telescope")
 require("config-lsp")
